@@ -3,3 +3,20 @@
   padding: 0;
   box-sizing: 0;
 }
+
+body {
+  display: flex;
+  font-size: 1rem;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (min-width: 600px) {
+  body {
+    background-color: hsl(210, 60%, 98%);
+  }
+}
