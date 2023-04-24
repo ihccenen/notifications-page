@@ -66,6 +66,14 @@
 
 .pic {
   margin-left: auto;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 0.05em;
+}
+
+.pic:hover {
+  cursor: pointer;
+  border: 1px solid hsl(211, 68%, 94%);
 }
 
 @media (min-width: 600px) {
